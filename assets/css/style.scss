@@ -11,6 +11,27 @@
   margin-bottom: 0.25rem;
 }
 
+.hero-link {
+  margin-top: 0.75rem;
+}
+
+.cta-link {
+  display: inline-block;
+  background: #2b2b2b;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cta-link:hover,
+.cta-link:focus {
+  background: #1b1b1b;
+  color: #fff;
+  text-decoration: none;
+}
+
 .hero-image {
   width: 100%;
   max-height: 420px;

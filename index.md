@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Sauna Gray
 ---
 
@@ -7,7 +7,7 @@ title: Sauna Gray
   <div class="hero-text">
     <h1>Sauna Gray</h1>
     <p>Professional sauna session tracker for Garmin smartwatches.</p>
-    <p><a href="https://apps.garmin.com/apps/b63ec14b-bc28-4e92-bfb3-be653c595066" target="_blank" rel="noopener">Get Sauna Gray on Garmin Connect IQ</a></p>
+    <p class="hero-link"><a class="cta-link" href="https://apps.garmin.com/apps/b63ec14b-bc28-4e92-bfb3-be653c595066" target="_blank" rel="noopener">Get Sauna Gray on Garmin Connect IQ</a></p>
   </div>
   <img class="hero-image" src="{{ '/assets/images/hero-image.jpg' | relative_url }}" alt="Sauna Gray on Garmin watch" />
 </div>
