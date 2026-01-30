@@ -9,7 +9,7 @@ title: Sauna Gray
     <p>Professional sauna session tracker for Garmin smartwatches.</p>
     <p class="hero-link"><a class="cta-link" href="https://apps.garmin.com/apps/b63ec14b-bc28-4e92-bfb3-be653c595066" target="_blank" rel="noopener">Get Sauna Gray on Garmin Connect IQ</a></p>
   </div>
-  <img class="hero-image" src="{{ '/assets/images/hero-image.jpg' | relative_url }}" alt="Sauna Gray on Garmin watch" />
+  <img class="hero-image" src="{{ '/assets/images/hero-image.png' | relative_url }}" alt="Sauna Gray on Garmin watch" />
 </div>
 
 ## Sauna Gray - Professional Sauna Session Tracker
@@ -68,7 +68,6 @@ Transform your Garmin smartwatch into a comprehensive sauna monitoring companion
   <img src="{{ '/assets/images/3-screen.png' | relative_url }}" alt="Sauna Gray screen 3" />
   <img src="{{ '/assets/images/4-screen.png' | relative_url }}" alt="Sauna Gray screen 4" />
   <img src="{{ '/assets/images/5-screen.png' | relative_url }}" alt="Sauna Gray screen 5" />
-  <img src="{{ '/assets/images/6-screen.png' | relative_url }}" alt="Sauna Gray screen 6" />
 </div>
 
 ## Compatibility
