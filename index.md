@@ -73,7 +73,85 @@ Transform your Garmin smartwatch into a comprehensive sauna monitoring companion
 
 ## Compatibility
 
-Fenix 6/6 Pro/6S/6S Pro/6X Pro, Fenix 7/7 Pro/7S/7S Pro/7X, Fenix 8 (43mm, 47/51mm, Pro, Solar), Epix 2/Pro, Venu 2/2 Plus, Forerunner 165/255/265/570/955/965/970, Descent G2/Mk3.
+### D2
+- D2 Mach 1 Pro
+
+### Descent
+- Descent G2
+- Descent MK3 - 43mm
+- Descent MK3i - 51mm
+
+### Enduro
+- Enduro 2
+
+### Forerunner
+- Forerunner 165
+- Forerunner 165 Music
+- Forerunner 255
+- Forerunner 255 Music
+- Forerunner 255S
+- Forerunner 255S Music
+- Forerunner 265
+- Forerunner 265S
+- Forerunner 570 - 42mm
+- Forerunner 570 - 47mm
+- Forerunner 955 Dual Power
+- Forerunner 965
+- Forerunner 970
+
+### Mercedes-Benz Venu
+- Mercedes-Benz Venu 2
+
+### Venu
+- Venu 2
+- Venu 2 Plus
+
+### eTrex
+- eTrex Touch
+
+### epix
+- epix (Gen 2)
+- epix Pro (42mm)
+- epix Pro (47mm)
+- epix Pro (51mm)
+
+### fēnix
+- fēnix 6
+- fēnix 6 Dual Power
+- fēnix 6 Pro
+- fēnix 6 Pro Dual Power
+- fēnix 6 Pro Solar
+- fēnix 6 Solar
+- fēnix 6S
+- fēnix 6S Dual Power
+- fēnix 6S Pro
+- fēnix 6S Pro Dual Power
+- fēnix 6S Pro Solar
+- fēnix 6S Solar
+- fēnix 6X Pro
+- fēnix 7
+- fēnix 7 Pro
+- fēnix 7 Pro - Solar Edition (No Wi-Fi)
+- fēnix 7S
+- fēnix 7S Pro
+- fēnix 7X
+- fēnix 7X Pro
+- fēnix 7X Pro No Wi-Fi
+- fēnix 8 AMOLED (43mm)
+- fēnix 8 AMOLED (47mm/51mm)
+- fēnix 8 Pro
+- fēnix 8 Solar (47mm)
+- fēnix 8 Solar (51mm)
+
+### quatix
+- quatix 6
+- quatix 6X
+
+### tactix
+- tactix 7
+- tactix 7 - AMOLED Edition
+- tactix 8 - 47 mm, AMOLED
+- tactix 8 - 51 mm, Solar
 
 ## Get started
 

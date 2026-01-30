@@ -48,6 +48,8 @@
 
 .gallery img {
   width: 100%;
+  max-width: 220px;
+  justify-self: center;
   border-radius: 10px;
   background: #f2f2f2;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
