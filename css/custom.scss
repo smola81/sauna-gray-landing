@@ -1,0 +1,80 @@
+---
+---
+
+$sauna-charcoal: #2d2b2a;
+$sauna-ember: #f39a3d;
+$sauna-ember-dark: #d97a2c;
+$sauna-ash: #f3eee8;
+$sauna-mist: #e8ddd2;
+
+body {
+  background-color: $sauna-ash;
+}
+
+.main {
+  border-left-color: $sauna-mist;
+  border-right-color: $sauna-mist;
+}
+
+a:hover {
+  color: $sauna-ember-dark;
+}
+
+.hero-container.hero-sauna {
+  background: linear-gradient(135deg, #2b2a29 0%, #3b2f2a 55%, #4a3a2f 100%);
+  color: #f8f3ee;
+  margin: 0 0 4em 0;
+  padding: 4em 0 5em 0;
+}
+
+.hero-sauna .hero-content h1,
+.hero-sauna .hero-content p {
+  color: #f8f3ee;
+}
+
+.hero-image {
+  display: block;
+  max-width: 760px;
+  margin: 0 auto 2.5em;
+  border-radius: 12px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+.hero-buttons .btn {
+  background-color: $sauna-ember;
+  border-color: $sauna-ember-dark;
+  color: $sauna-charcoal;
+}
+
+.hero-buttons .btn:hover,
+.hero-buttons .btn:focus {
+  background-color: lighten($sauna-ember, 6%);
+  border-color: $sauna-ember-dark;
+  color: $sauna-charcoal;
+}
+
+.content-section {
+  margin: 6em 0;
+}
+
+.section-title:after,
+.content-wrap .content h3.title:after {
+  background-color: $sauna-ember;
+}
+
+.feature-list {
+  font-size: 1.1em;
+  line-height: 1.7;
+  padding-left: 1.2em;
+}
+
+.feature-list li {
+  margin-bottom: 0.6em;
+}
+
+.screenshots img {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(36, 30, 24, 0.18);
+  margin-bottom: 1.5em;
+}

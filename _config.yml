@@ -1,6 +1,12 @@
 title: SaunaGray
 description: Professional Sauna Session Tracker for Garmin smartwatches
-theme: minima
 url: https://smola81.github.io
 baseurl: /sauna-gray-landing
 markdown: kramdown
+remote_theme: jamigibbs/phantom
+plugins:
+  - jekyll-remote-theme
+footer_text: "© 2026 SaunaGray"
+admin_name: SaunaGray
+enable_contact: false
+enable_nav: false
