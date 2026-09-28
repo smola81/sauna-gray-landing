@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sauna Gray — Sauna tracker for Garmin watches</title>
+<meta name="description" content="Rounds, heat and heart rate on your wrist, with safety alerts built in. A sauna session tracker for Garmin watches.">
+<meta name="theme-color" content="#0B0A09">
+
+<link rel="icon" href="{{ '/assets/images/cover-image.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/images/cover-image.png' | relative_url }}">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sauna Gray — Sauna tracker for Garmin watches">
+<meta property="og:description" content="Rounds, heat and heart rate on your wrist, with safety alerts built in.">
+<meta property="og:image" content="{{ '/assets/images/hero-image.png' | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sauna Gray — Sauna tracker for Garmin watches">
+<meta name="twitter:description" content="Rounds, heat and heart rate on your wrist, with safety alerts built in.">
+<meta name="twitter:image" content="{{ '/assets/images/hero-image.png' | absolute_url }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Barlow+Condensed:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Sauna Gray",
+  "operatingSystem": "Garmin Connect IQ",
+  "applicationCategory": "HealthApplication",
+  "description": "Sauna session tracker for Garmin watches with live temperature, heart rate and safety alerts.",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}">Sauna Gray</a>
+    <a class="btn" href="https://apps.garmin.com/apps/b63ec14b-bc28-4e92-bfb3-be653c595066" target="_blank" rel="noopener">Get the app</a>
+  </div>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>
+      Sauna Gray &copy; {{ 'now' | date: "%Y" }} &middot;
+      <a href="https://apps.garmin.com/apps/b63ec14b-bc28-4e92-bfb3-be653c595066" target="_blank" rel="noopener">Connect IQ</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+  var revealTargets = document.querySelectorAll('.reveal');
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealTargets.forEach(function (el) { io.observe(el); });
+} else {
+  document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('is-visible'); });
+}
+
+(function () {
+  var input = document.getElementById('device-search');
+  if (!input) { return; }
+  var groups = document.querySelectorAll('.device-group');
+  input.addEventListener('input', function () {
+    var q = input.value.trim().toLowerCase();
+    groups.forEach(function (group) {
+      var items = group.querySelectorAll('li');
+      var visibleCount = 0;
+      items.forEach(function (li) {
+        var match = q === '' || li.textContent.toLowerCase().indexOf(q) !== -1;
+        li.classList.toggle('is-hidden', !match);
+        if (match) { visibleCount++; }
+      });
+      group.classList.toggle('is-hidden', visibleCount === 0);
+      if (q !== '' && visibleCount > 0) { group.setAttribute('open', ''); }
+    });
+  });
+})();
+</script>
+</body>
+</html>
