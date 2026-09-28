@@ -1,6 +1,6 @@
 # Compatible watches, grouped by family. Cross-checked 1:1 against the
 # Connect IQ manifest (SaunaGray/manifest.xml in the sauna-gray app repo,
-# <iq:product id="..."/> entries) — 36 product IDs, 36 names below. Do not
+# <iq:product id="..."/> entries) — 38 product IDs, 38 names below. Do not
 # add a name here without a matching manifest product id; the previous
 # version of this page listed families (fēnix 6 series, quatix, tactix,
 # D2 Mach 1 Pro, Enduro 2, Mercedes-Benz Venu 2) that were never in the
@@ -53,3 +53,5 @@
   watches:
     - Venu 2
     - Venu 2 Plus
+    - Venu 3
+    - Venu 3S
