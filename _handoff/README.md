@@ -32,7 +32,7 @@ Replace the default-theme page (a long feature list and ~70 device names in bull
 
 ## Page structure (in order)
 1. **Header** (sticky, 64px, `--bg` at 85% with `backdrop-filter: blur(12px)`, bottom border `--line`): wordmark "Sauna Gray" in Barlow Condensed 24px on the left, "Get the app" button on the right.
-2. **Hero**: a two-column grid (stacks below 860px). Left: eyebrow "For Garmin watches", H1 "Sauna Gray", sub "Rounds, heat and heart rate on your wrist — with safety alerts built in.", primary button "Get it on Connect IQ" (https://apps.garmin.com/apps/b63ec14b-bc28-4e92-bfb3-be653c595066), and a secondary text link "See compatible watches ↓". Right: `assets/images/1-screen.png` shown as a 420px circle with a 14px `#1C1B1A` bezel ring and a large soft shadow. Background: a subtle radial `#2A1A0F → --bg` behind the watch only.
+2. **Hero**: a two-column grid (stacks below 860px). Left: eyebrow "For Garmin watches", H1 "Sauna Gray", sub "Rounds, heat and heart rate on your wrist — with safety alerts built in.", primary button "Get it on Connect IQ" (https://apps.garmin.com/apps/99fa9fae-74ea-4f3e-b27f-c5571c99a9b8), and a secondary text link "See compatible watches ↓". Right: `assets/images/1-screen.png` shown as a 420px circle with a 14px `#1C1B1A` bezel ring and a large soft shadow. Background: a subtle radial `#2A1A0F → --bg` behind the watch only.
 3. **How a session works**: a three-step row, where each card is `--surface` with a `--line` border and radius 14px:
    - Sauna (`1-screen`): heat dot. Copy: "Live timer, temperature and heart rate with zones. The ring fills to 15 min."
    - Cool (`2-screen`): cool dot. Copy: "Cooling break timer and temperature drop. Buzzes when you're ready for the next round."
