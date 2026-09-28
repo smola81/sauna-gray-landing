@@ -3,4 +3,4 @@ description: Professional sauna session tracker for Garmin smartwatches
 url: https://smola81.github.io
 baseurl: /sauna-gray-landing
 markdown: kramdown
-theme: minima
+theme: null

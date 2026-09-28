@@ -1,0 +1,55 @@
+# Compatible watches, grouped by family. Cross-checked 1:1 against the
+# Connect IQ manifest (SaunaGray/manifest.xml in the sauna-gray app repo,
+# <iq:product id="..."/> entries) — 36 product IDs, 36 names below. Do not
+# add a name here without a matching manifest product id; the previous
+# version of this page listed families (fēnix 6 series, quatix, tactix,
+# D2 Mach 1 Pro, Enduro 2, Mercedes-Benz Venu 2) that were never in the
+# manifest and were removed for that reason.
+- family: Descent
+  watches:
+    - Descent G2
+    - Descent MK3 - 43mm
+    - Descent MK3i - 51mm
+- family: epix
+  watches:
+    - epix (Gen 2)
+    - epix Pro (42mm)
+    - epix Pro (47mm)
+    - epix Pro (51mm)
+- family: eTrex
+  watches:
+    - eTrex Touch
+- family: fēnix
+  watches:
+    - fēnix 7
+    - fēnix 7 Pro
+    - fēnix 7 Pro - Solar Edition (No Wi-Fi)
+    - fēnix 7S
+    - fēnix 7S Pro
+    - fēnix 7X
+    - fēnix 7X Pro
+    - fēnix 7X Pro No Wi-Fi
+    - fēnix 8 AMOLED (43mm)
+    - fēnix 8 AMOLED (47mm/51mm)
+    - fēnix 8 Pro
+    - fēnix 8 Solar (47mm)
+    - fēnix 8 Solar (51mm)
+- family: Forerunner
+  watches:
+    - Forerunner 165
+    - Forerunner 165 Music
+    - Forerunner 255
+    - Forerunner 255 Music
+    - Forerunner 255S
+    - Forerunner 255S Music
+    - Forerunner 265
+    - Forerunner 265S
+    - Forerunner 570 - 42mm
+    - Forerunner 570 - 47mm
+    - Forerunner 955 Dual Power
+    - Forerunner 965
+    - Forerunner 970
+- family: Venu
+  watches:
+    - Venu 2
+    - Venu 2 Plus

@@ -1,0 +1,135 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">For Garmin watches</p>
+      <h1>Sauna Gray</h1>
+      <p>Rounds, heat and heart rate on your wrist &mdash; with safety alerts built in.</p>
+      <div class="hero-actions">
+        <a class="btn" href="https://apps.garmin.com/apps/b63ec14b-bc28-4e92-bfb3-be653c595066" target="_blank" rel="noopener">Get it on Connect IQ</a>
+        <a class="link-secondary" href="#compatible">See compatible watches &darr;</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="watch-frame">
+        <img src="{{ '/assets/images/1-screen.png' | relative_url }}" alt="Sauna Gray in-sauna screen on a Garmin watch" width="420" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 style="text-align:center;margin-bottom:40px">How a session works</h2>
+    <div class="steps">
+      <div class="card reveal">
+        <span class="dot dot--heat"></span>
+        <img class="round-shot" src="{{ '/assets/images/1-screen.png' | relative_url }}" alt="In-sauna screen with timer, temperature and heart rate" width="240" height="240" loading="lazy">
+        <h3>Sauna</h3>
+        <p>Live timer, temperature and heart rate with zones. The ring fills to 15&nbsp;min.</p>
+      </div>
+      <div class="card reveal">
+        <span class="dot dot--cool"></span>
+        <img class="round-shot" src="{{ '/assets/images/2-screen.png' | relative_url }}" alt="Cooling screen with break timer and temperature drop" width="240" height="240" loading="lazy">
+        <h3>Cool</h3>
+        <p>Cooling break timer and temperature drop. Buzzes when you're ready for the next round.</p>
+      </div>
+      <div class="card reveal">
+        <span class="dot dot--go"></span>
+        <img class="round-shot" src="{{ '/assets/images/4-screen.png' | relative_url }}" alt="Session summary screen with rounds, max temperature, average heart rate and calories" width="240" height="240" loading="lazy">
+        <h3>Save</h3>
+        <p>Summary of rounds, max temp, average HR and calories. Saves to Garmin Connect and Strava.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap safety reveal">
+    <div class="safety-visual">
+      <img src="{{ '/assets/images/3-screen.png' | relative_url }}" alt="Safety alert screen shown during a long or hot session" width="260" height="260" loading="lazy">
+    </div>
+    <div>
+      <h2>Safety first</h2>
+      <ul class="safety-list">
+        <li>Alerts at 15, 18 and 20 minutes in the sauna</li>
+        <li>Temperature warnings over 80&deg;C and 85&deg;C</li>
+        <li>Heart rate alerts over 140 and 150&nbsp;bpm</li>
+        <li>Vibration and a full-screen alert so you never miss one</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 style="text-align:center;margin-bottom:40px">Features</h2>
+    <div class="features">
+      <div class="feature reveal">
+        <span class="dot dot--heat"></span>
+        <h3>Multi-round tracking</h3>
+        <p>Track complete sauna activities across multiple rounds, with automatic cooling in between.</p>
+      </div>
+      <div class="feature reveal">
+        <span class="dot dot--cool"></span>
+        <h3>History of 50 sessions</h3>
+        <p>Look back at duration, max/min temperature and heart rate for your last 50 sessions.</p>
+      </div>
+      <div class="feature reveal">
+        <img class="round-shot--sm" src="{{ '/assets/images/5-screen.png' | relative_url }}" alt="Personal record screen" width="64" height="64" loading="lazy">
+        <h3>Personal records</h3>
+        <p>Longest session, most rounds and more, tracked automatically.</p>
+      </div>
+      <div class="feature reveal">
+        <span class="dot dot--go"></span>
+        <h3>GPS location</h3>
+        <p>Automatic GPS capture so your session shows where it happened.</p>
+      </div>
+      <div class="feature reveal">
+        <span class="dot dot--gold" style="background:var(--gold)"></span>
+        <h3>Temperature editing</h3>
+        <p>Correct the recorded temperature after a session if a sensor missed it.</p>
+      </div>
+      <div class="feature reveal">
+        <span class="dot dot--heat"></span>
+        <h3>Adaptive layouts</h3>
+        <p>Tuned for every supported screen size, from the smallest MIP display to large AMOLED.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="compatible" class="section" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <h2>Compatible watches</h2>
+    {% assign device_total = 0 %}
+    {% for group in site.data.devices %}
+      {% assign device_total = device_total | plus: group.watches.size %}
+    {% endfor %}
+    <p class="device-count">Works on {{ device_total }} Garmin watches</p>
+    <input type="text" id="device-search" class="device-search" placeholder="Search your watch&hellip;" aria-label="Search compatible watches">
+    <div class="device-groups">
+      {% for group in site.data.devices %}
+      <details class="device-group">
+        <summary>{{ group.family }} <span style="color:var(--muted);font-weight:500">({{ group.watches.size }})</span></summary>
+        <ul>
+          {% for watch in group.watches %}
+          <li>{{ watch }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section final-cta reveal">
+  <div class="wrap">
+    <img src="{{ '/assets/images/cover-image.png' | relative_url }}" alt="Sauna Gray icon" width="120" height="120" loading="lazy">
+    <h2>Start your next session</h2>
+    <a class="btn" href="https://apps.garmin.com/apps/b63ec14b-bc28-4e92-bfb3-be653c595066" target="_blank" rel="noopener">Get it on Connect IQ</a>
+  </div>
+</section>
